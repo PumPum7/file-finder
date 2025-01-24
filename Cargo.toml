@@ -9,3 +9,14 @@ regex = "1.11.1"
 ignore = "0.4.23" 
 termcolor = "1.4.1" 
 rayon = "1.10.0"
+memmap2 = "0.9.5"
+
+[dev-dependencies]
+criterion = "0.5.1"
+tempfile = "3.10.1"
+assert_fs = "1.1.1"
+test-case = "3.3.1"
+
+[[bench]]
+name = "search_benchmark"
+harness = false
