@@ -10,6 +10,8 @@ ignore = "0.4.23"
 termcolor = "1.4.1" 
 rayon = "1.10.0"
 memmap2 = "0.9.5"
+tui = "0.19"
+crossterm = "0.25"
 
 [dev-dependencies]
 criterion = "0.5.1"

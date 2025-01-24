@@ -26,4 +26,8 @@ pub struct Args {
     /// Buffer size for reading files (in bytes)
     #[arg(short = 'b', long, default_value = "8192")]
     pub buffer_size: usize,
+
+    /// Use TUI mode
+    #[arg(short = 't', long)]
+    pub tui: bool,
 }
